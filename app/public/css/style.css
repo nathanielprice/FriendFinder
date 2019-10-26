@@ -1,0 +1,55 @@
+
+.panel{
+	width: 100%;
+}
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.jumbotron{
+    background-color:grey;
+    opacity: 0.9;
+	/* Find light color of success panel */
+	color: white;
+    margin-top: 40px;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+body {
+    background: url(images/friends.jpg);
+    /* background-color: grey; */
+    height: 100%;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .row {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.row > div {
+    background: white;
+    opacity: 0.9;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+  hr {
+    border-color: inherit;
+    margin: 1em 0;
+  }
+  .Mntitle {
+    color: white;
+  }
+  #resultsModal img {
+    overflow: hidden;
+    width: 500px;
+  }
